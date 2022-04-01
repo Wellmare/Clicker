@@ -1,0 +1,30 @@
+.button {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.click-info {
+    margin-bottom: 10px;
+}
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red
+}
+.btn:hover {
+    opacity: 0.9
+}
+.super-click:disabled {
+    cursor: not-allowed
+}
+.super-click {
+    background-color: rgb(219, 87, 219);
+    padding: 10px;
+    border-radius: 20px;
+}
+.hide {
+    display: none;
+}
